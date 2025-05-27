@@ -1,0 +1,60 @@
+# Ignorar arquivos e diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de logs e cache
+*.log
+*.out
+*.pid
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorar arquivos do ambiente virtual do Python
+venv/
+.env
+*.env
+*.venv
+Pipfile
+Pipfile.lock
+
+# Ignorar diretórios de dependências do backend
+site-packages/
+
+# Ignorar arquivos gerados pelo editor
+.vscode/
+.idea/
+*.swp
+
+# Ignorar arquivos de build do Docker
+Dockerfile
+.dockerignore
+
+# Ignorar diretórios do Git
+.git/
+.gitignore
+
+# Ignorar configurações e credenciais sensíveis
+config/alocacao-entregadores-firebase-credenciais.json
+firebase_credentials.json
+
+# Ignorar arquivos de testes e relatórios
+tests/
+__tests__/
+coverage/
+*.coverage
+*.pytest_cache
+
+# Ignorar arquivos do frontend
+node_modules/
+dist/
+build/
+
+# Ignorar uploads temporários
+uploads/
+tmp/
+*.bak
